@@ -1,0 +1,185 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    margin-left: 76px;
+    gap: 40px;
+  }
+
+  .address {
+    margin-left: 118px;
+    display: flex;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 4px;
+  }
+
+  .curent {
+    color: var(--hover--color);
+  }
+
+  .curent::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover--color);
+    border-radius: 2px;
+    bottom: 0;
+  }
+
+  .hero {
+    padding-bottom: 108px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
+  }
+
+  .hero-btn {
+    margin-top: 40px;
+  }
+
+  .hero-title {
+    width: 496px;
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  .container-team {
+    width: 582px;
+  }
+
+  .presentation-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .presentation-title {
+    text-align: start;
+  }
+
+  .presentation-item {
+    /* width: calc((100%-24px)/2); */
+    width: 356px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .customers .container {
+    width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .customers-list {
+    column-gap: 22px;
+  }
+
+  .customer-item {
+    flex-basis: 168px;
+  }
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio img {
+    width: 356px;
+  }
+
+  .portfolio-list {
+    width: 100%;
+  }
+
+  .portfolio-btn {
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+  }
+
+  .portfolio-images {
+    margin-top: 64px;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .footer-container {
+    padding-left: 108px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .logo-wrap {
+    align-items: flex-start;
+  }
+
+  .social-wrap {
+    margin-left: 24px;
+  }
+
+  .social-media-text {
+    margin-top: 0px;
+    text-align: start;
+  }
+
+  .subscribe-label {
+    text-align: start;
+  }
+
+  .row-wrap {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .subscribe-input {
+    width: 264px;
+  }
+
+  .modal {
+    max-width: 408px;
+  }
+
+  .menu-open-icon {
+    display: none;
+  }
+}
